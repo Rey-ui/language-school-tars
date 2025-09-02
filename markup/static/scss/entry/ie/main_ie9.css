@@ -1,0 +1,18 @@
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 9 | @import '../../sprites-scss/sprite_96.scss';
+ *   |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   ..\built-in-partials\_service.scss 9:9  @import
+ *   main_ie9.scss 7:9                       root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 9 \2502  @import '../../sprites-scss/sprite_96.scss';\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   ..\\built-in-partials\\_service.scss 9:9  @import\a   main_ie9.scss 7:9                       root stylesheet";
+}
